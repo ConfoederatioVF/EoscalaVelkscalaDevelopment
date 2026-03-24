@@ -11,7 +11,7 @@
 			if (hyde_years.includes(i)) try {
 				var luh2_images = {};
 				var luh2_stocks = config.velkscala.luh2.variables;
-				var output_file_path = `${luh2_config.output_folder}/${luh2_config.file_prefix}{i}.png`;
+				var output_file_path = `${luh2_config.output_folder}/${luh2_config.file_prefix}${i}.png`;
 
 				log.info(`Generating LUH2 raster for ${getHYDEYearName(i)} ..`);
 
